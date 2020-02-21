@@ -1,0 +1,479 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+.personalInformationDiv {
+    height: 487px;
+    width: 660px;
+    border-radius: 14px;
+    background-color: #FFFFFF;
+    box-shadow: 0 26px 69px -29px #D2D7E1;
+    margin-bottom: 31px;
+}
+
+.personalInformationTextAndIconDiv {
+	height: 50px;
+	margin-left: 50px; 
+	margin-top: 26px;
+}
+
+.personalInformationText {
+	height: 21px;
+	width: 218px;
+	color: #000000;
+    font-size: 16px;
+    font-family: Raleway;
+    font-weight: bold;
+	letter-spacing: 1px;
+    line-height: 21px;
+    padding-top: 38px;
+	margin-bottom: 45px;
+	margin-right: 300px;
+	float: left;
+}
+
+.personIcon {
+	height: 50px;
+	width: 49px;
+	margin-top: 26px;
+	float: left;
+}
+
+.form-control {
+	height: 48px;
+	width: 272px;
+	border-radius: 6px;
+    background-color: #F3F5FA;
+    border: none;
+    padding-left: 26.5px;
+}
+
+input[type="radio"] {
+    background-color: #FFFFFF;
+    font-size: 5px;
+    border: 1px solid #707C94;
+}
+
+.firstNameAndLastNameDiv {
+    height: 67px;
+}
+
+.firstNameDiv {
+	height: 67px;
+    width: 272px;
+    float: left;
+    margin-left: 50px;
+    margin-bottom: 19px;
+}
+
+label[for="firstName"] {
+	height: 11px;
+    width: 62px;
+    font-family: Raleway;
+	color: #000000;
+	font-size: 10px;
+	font-weight: bold;
+	letter-spacing: 1.1px;
+	line-height: 11px;
+}
+
+input[type="text"]::placeholder {
+	height: 16px;
+	width: 32px;
+	color: #C9CACB;
+	font-family: Raleway;
+	font-size: 14px;
+	line-height: 16px;
+}
+
+input[type="email"]::placeholder {
+	height: 16px;
+	width: 32px;
+	color: #C9CACB;
+	font-family: Raleway;
+	font-size: 14px;
+    line-height: 16px;
+}
+
+
+.lastNameDiv {
+    height: 67px;
+    width: 272px;
+    float: left;
+    margin-left: 21px;
+    margin-bottom: 19px;
+}
+
+label[for="lastName"] {
+	height: 11px;
+    width: 61px;
+    font-family: Raleway;
+	color: #000000;
+	font-size: 10px;
+	font-weight: bold;
+	letter-spacing: 1.1px;
+	line-height: 11px;
+}
+
+.emailAndNumberDiv {
+    height: 67px;
+    margin-bottom: 32px;
+}
+
+.emailAddressDiv {
+    height: 67px;
+    width: 272px;
+    float: left;
+    margin-left: 50px;
+    margin-bottom: 32px;
+}
+
+label[for="email"] {
+	height: 11px;
+    width: 81px;
+    font-family: Raleway;
+	color: #000000;
+	font-size: 10px;
+	font-weight: bold;
+	letter-spacing: 1.1px;
+	line-height: 11px;
+}
+
+.phoneNumberDiv {
+    height: 67px;
+    width: 272px;
+    float: left;
+    margin-left: 21px;
+    margin-bottom: 32px;
+}
+
+label[for="phoneNumber"] {
+	height: 11px;
+    width: 85px;
+    font-family: Raleway;
+	color: #000000;
+	font-size: 10px;
+	font-weight: bold;
+	letter-spacing: 1.1px;
+	line-height: 11px;
+}
+
+.roleAtTheCompanyDiv {
+	height: 82px;
+    width: 480px;
+    margin-left: 50px;
+    margin-bottom: 35px;
+}
+
+label[for="roleAtTheCompanyText"] {
+	height: 11px;
+    width: 198px;
+    font-family: Raleway;
+	color: #000000;
+	font-size: 10px;
+	font-weight: bold;
+	letter-spacing: 1.1px;
+	line-height: 11px;
+	margin-bottom: 16px;
+}
+
+.role, .developer {
+	box-sizing: border-box;
+	height: 23px;
+	width: 23px;
+	color: #FFFFFF;
+	border: 1px solid #707C94;
+	background-color: #FFFFFF;
+	margin-right: 11.5px;
+	-webkit-appearance: none;
+    border-radius: 50%;
+	outline: none;
+}
+
+.role:checked, .developer:checked {
+	// height: 16px;
+	// width: 16px;
+	// margin: 0 auto;
+	background-color: #707C94;
+}
+
+.role:checked::before {
+	height: 16;
+	width: 16px;
+	display: inline-block;
+	font-size: 14px;
+	text-align: center;
+}
+
+label[for="radioButton"] {
+    height: 16px;
+    // width: 271px;
+    color: #000000;
+    font-family: Raleway;
+    font-size: 14px;
+	line-height: 16px;
+	margin-top: 3px;
+    margin-bottom: 3px;
+    position: absolute;
+    // margin-left: 34px;
+}
+
+// input[type="radio"]{
+// 	height: unset;
+// 	fill: none;
+// }
+
+.companyAdministratorButtonDiv {
+	height: 22px;
+    width: 305px;
+	float: left;
+	margin-bottom: 11px;
+	position: relative;
+	margin-right: 30px;
+}
+
+.directorButtonDiv {
+	height: 22px;
+    width: 145px;
+	float: left;
+	margin-bottom: 11px;
+	position: relative;
+}
+
+.employeeButtonDiv {
+	height: 22px;
+    width: 305px;
+	float: left;
+	margin-bottom: 11px;
+	position: relative;
+	margin-right: 30px
+}
+
+.otherButtonDiv {
+	height: 22px;
+    width: 71px;
+	float: left;
+	margin-bottom: 11px;
+	position: relative;
+}
+
+.otherButton {
+	height: 16px;
+	// width: 37px;
+	color: #000000;
+	font-size: 14px;
+	line-height: 16px;
+}
+
+.areYouASoftwareDeveloperDiv {
+	height: 49px;
+    width: 178px;
+    margin-left: 50px;
+    padding-top: 32px;
+}
+
+.yesDiv {
+	height: 22px;
+	width: 61px;
+	margin-right: 26px;
+	float: left;
+}
+
+.noDiv {
+	height: 22px;
+	width: 56px;
+	float: left;
+}
+
+label[for="areYouASoftwareDeveloperText"] {
+	height: 11px;
+    width: 176px;
+    font-family: Raleway;
+	color: #000000;
+	font-size: 10px;
+	font-weight: bold;
+	letter-spacing: 1.1px;
+	line-height: 11px;
+	margin-bottom: 16px;
+}
+
+.businessInformationDiv {
+	height: 523px;
+	width: 660px;
+	border-radius: 14px;
+	background-color: #FFFFFF;
+	box-shadow: 0 26px 69px -29px #D2D7E1;
+}
+
+.businessInformationTextAndIconDiv {
+	height: 50px;
+	margin-left: 50px; 
+	margin-top: 26px;
+	margin-bottom: 20px;
+}
+
+.businessInformationText {
+	height: 21px;
+    width: 213px;
+    font-family: Raleway;
+	color: #000000;
+	font-size: 16px;
+	font-weight: bold;
+	letter-spacing: 1px;
+    line-height: 21px;
+    // margin-left: 50px;
+    padding-top: 35px;
+	margin-bottom: 27px;
+	margin-right: 300px;
+	float: left;
+}
+
+.shopIcon {
+	height: 47px;
+	width: 47px;
+	margin-top: 16px;
+	float: left;
+}
+
+.industryDiv {
+	height: 67px;
+    width: 565px;
+    margin-left: 50px;
+    margin-bottom: 25px;
+}
+
+label[for="industryTypeText"] {
+	height: 11px;
+    width: 265px;
+    font-family: Raleway;
+	color: #000000;
+	font-size: 10px;
+	font-weight: bold;
+	letter-spacing: 1.1px;
+	line-height: 11px;
+}
+
+input[type="text"]::placeholder {
+	height: 16px;
+	width: 87px;
+	color: #C9CACB;
+	font-family: Raleway;
+	font-size: 14px;
+    line-height: 16px;
+    margin-left: 26.5px;
+}
+
+#industryTypeInput {
+	height: 48px;
+	width: 565px;
+	border-radius: 6px;
+	background-color: #F3F5FA;
+}
+
+.addressAndURLDiv {
+    height: 67px;
+    margin-bottom: 35px;
+}
+
+.physicalBusinessAddressDiv {
+	height: 67px;
+    width: 272px;
+    margin-left: 50px;
+    float: left;
+}
+
+label[for="physicalBusinessAddressText"] {
+	height: 11px;
+    width: 152px;
+    font-family: Raleway;
+	color: #000000;
+	font-size: 10px;
+	font-weight: bold;
+	letter-spacing: 1.1px;
+	line-height: 11px;
+}
+
+.physicalBusinessAddressInput {
+	height: 48px;
+	width: 272px;
+	border-radius: 6px;
+	background-color: #F3F5FA;
+}
+
+.websiteURLDiv {
+	height: 67px;
+    width: 272px;
+    margin-left: 50px;
+    margin-left: 21px;
+    margin-bottom: 35px;
+    float: left;
+}
+
+label[for="websiteURLText"] {
+	height: 11px;
+    width: 136px;
+    font-family: Raleway;
+	color: #000000;
+	font-size: 10px;
+	font-weight: bold;
+	letter-spacing: 1.1px;
+	line-height: 11px;
+}
+
+.websiteURLInput {
+	height: 48px;
+	width: 272px;
+	border-radius: 6px;
+	background-color: #F3F5FA;
+}
+
+.registrationStatusDiv {
+	height: 67px;
+    width: 565px;
+    margin-left: 50px;
+    // margin-bottom: 54px;
+}
+
+label[for="registrationStatusText"] {
+	height: 11px;
+    width: 278px;
+    font-family: Raleway;
+	color: #000000;
+	font-size: 10px;
+	font-weight: bold;
+	letter-spacing: 1.1px;
+	line-height: 11px;
+}
+
+#registrationStatusInput {
+	height: 48px;
+	width: 565px;
+	border-radius: 6px;
+	background-color: #F3F5FA;
+}
+
+.buttonsDiv {
+    height: 48px;
+    margin-top: 54px;
+}
+
+.goBackButton {
+	height: 48px;
+	width: 174px;
+	border-radius: 31.5px;
+    background-color: #EDEFF1;
+    color: #ABABAB;
+    border: none;
+    outline: none;
+    margin-left: 50px;
+    margin-right: 169px;
+}
+
+.completeSetup {
+	height: 48px;
+	width: 232px;
+	border-radius: 31.5px;
+	background-color: #00A07E;
+    box-shadow: 0 17px 42px -18px #068167;
+    border: none;
+    color: white;
+    outline: none;
+}

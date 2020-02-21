@@ -1,0 +1,205 @@
+.container {
+	height: 678px;
+	width: 1132px;
+	border-radius: 17px;
+	background-color: #FFFFFF;
+    box-shadow: 0 26px 69px -29px #D2D7E1;
+    text-align: center;
+    margin-top: 34px;
+}
+
+.goBackButton {
+	height: 21px;
+	width: 83px;
+	color: #000000;
+	font-family: Raleway;
+	font-size: 16px;
+	line-height: 21px;
+    text-align: center;
+    padding-top: 32px;
+}
+
+.activateDiv {
+    margin-bottom: 104px;
+    text-align: center;
+    padding-top: 32px;
+}
+
+.activateYourRegisteredBusinessText {
+	height: 21px;
+	// width: 289px;
+	color: #51515A;
+	font-family: Raleway;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 21px;
+    text-align: center;
+    // padding-top: 32px;
+    margin-bottom: 9px;
+}
+
+.paperWorkText {
+	height: 18px;
+	// width: 437px;
+	color: #A0A1B9;
+	font-family: Raleway;
+	font-size: 12px;
+	line-height: 18px;
+	text-align: center;
+}
+
+.continueButton {
+	height: 32px;
+	width: 100px;
+	border-radius: 19px;
+	background-color: #51515A;
+    box-shadow: 0 17px 42px -18px #C2C7D2;
+    color: white;
+    border: none;
+    font-size: 14px;
+    float: left;
+	margin-bottom: 20px;
+	outline: none;
+}
+
+.companyInformationDiv {
+    display: inline-block;
+}
+
+.companyRegistrationDiv, .businessInformationDiv, .bankAccountDiv {
+	height: 36px;
+    width: 514px;
+    // margin-bottom: 20px;
+    // border-bottom: 1px solid #F1F3F7;
+}
+
+.icon {
+	height: 32px;
+	width: 32px;
+	margin-right: 16px;
+	float: left;
+}
+
+.companyRegistrationTextDiv {
+    float: left;
+    height: 36px;
+    margin-right: 107px;
+    // width: 466px;
+}
+
+.companyRegistrationText {
+	height: 19px;
+	width: 171px;
+	color: #000000;
+	font-family: Raleway;
+	font-size: 16px;
+	font-weight: bold;
+    line-height: 19px;
+}
+
+.companyRegistrationDetails {
+	height: 14px;
+	width: 259px;
+	color: #A0A1B9;
+	font-family: Raleway;
+	font-size: 12px;
+	line-height: 14px;
+}
+
+.businessInformationDiv::after {
+    content: '';
+    bottom: -20px;
+}
+
+.businessInformationTextDiv {
+    float: left;
+    height: 36px;
+    margin-right: 144px;
+    margin-bottom: 20px;
+}
+
+.businessInformationText {
+	height: 19px;
+	width: 162px;
+	color: #000000;
+	font-family: Raleway;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 19px;
+}
+
+.businessInformationDetails {
+	height: 14px;
+	width: 222px;
+	color: #A0A1B9;
+	font-family: Raleway;
+	font-size: 12px;
+	line-height: 14px;
+}
+
+.corporateBankAccountTextDiv {
+    float: left;
+    height: 36px;
+    margin-right: 155px;
+    
+}
+
+.corporateBankAccountText {
+	height: 19px;
+	width: 193px;
+	color: #000000;
+	font-family: Raleway;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 19px;
+}
+
+.corporateBankAccountDetails {
+	height: 14px;
+	width: 211px;
+	color: #A0A1B9;
+	font-family: Raleway;
+	font-size: 12px;
+	line-height: 14px;
+}
+
+.straightLine {
+	box-sizing: border-box;
+	height: 2px;
+	width: 517px;
+	border: 1px solid #F1F3F7;
+}
+
+.activationButtonDiv {
+    height: 48px;
+    width: 252px;
+    margin: auto;
+    margin-top: 103px;
+    // display: inline-block;
+}
+
+.sendActivationRequestButton {
+	height: 48px;
+	width: 252px;
+	// opacity: 0.4;
+    border-radius: 31.5px;
+    color: #FFFFFF;
+    font-family: Raleway;
+	background-color: #00A07E;
+    box-shadow: 0 17px 42px -18px #068167;
+    font-size: 16px;
+	line-height: 21px;
+	border: none;
+	outline: none;
+}
+
+
+//     /* height: 48px; */
+//     width: 232px;
+//     border-radius: 31.5px;
+//     background-color: #00A07E;
+//     box-shadow: 0 17px 42px -18px #068167;
+//     border: none;
+//     color: white;
+//     outline: none;
+// }

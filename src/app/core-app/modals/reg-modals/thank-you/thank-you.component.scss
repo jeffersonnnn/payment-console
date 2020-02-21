@@ -1,0 +1,64 @@
+
+.container {
+	height: 470px;
+	width: 621px;
+	border-radius: 7px;
+    background-color: #FCFCFC;
+    text-align: center;
+}
+
+.iconDiv {
+	// height: 222px;
+    width: 282px;
+    padding-top: 55px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+
+.textDiv {
+    height: 75px;
+    width: 415px;
+    margin: 0 auto;
+    margin-bottom: 26px;
+}
+
+.wellDoneText {
+	height: 23px;
+	width: 96px;
+	color: #51515A;
+	font-family: Raleway;
+	font-size: 14px;
+	font-weight: bold;
+    line-height: 16px;
+    margin: 0 auto;
+    margin-bottom: 4px;
+}
+
+.processDetailsText {
+	height: 48px;
+	width: 415px;
+	color: #000000;
+	font-family: Raleway;
+	font-size: 16px;
+	line-height: 24px;
+	text-align: center;
+}
+
+.tourButtonDiv {
+    height: 32px;
+    width: 118px;
+    margin: 0 auto;
+}
+
+.takeATourButton {
+	height: 32px;
+	width: 118px;
+	border-radius: 16.54px;
+	background-color: #51515A;
+    box-shadow: 0 9px 22px -10px #51515A;
+    border: none;
+    outline: none;
+    color: #FFFFFF;
+    font-family: Raleway;
+    font-size: 9.8px;
+}

@@ -1,0 +1,9 @@
+﻿<ng-container *ngIf="!hideNavBar; else noMenuView"> 
+    <app-navbar></app-navbar>
+</ng-container>
+    <ng-template #noMenuView>
+        <app-navbar-b></app-navbar-b>
+    </ng-template>
+<router-outlet></router-outlet>
+
+

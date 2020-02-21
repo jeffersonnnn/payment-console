@@ -1,0 +1,110 @@
+.test {
+ display: flex;
+ justify-content: flex-end;
+}
+
+.nav-bar-div {
+	height: 59px;
+	width: 1316px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchBarDiv {
+    height: 38px;
+    width: 738px;
+    float: left;
+    margin-left: 39px;
+    margin-right: 44px;
+}
+
+.searchBar {
+	height: 38px;
+	width: 738px;
+	border-radius: 4px;
+    background-color: #F3F5FA;
+    border: none;
+    outline: none;
+    padding-left: 50px;
+}
+
+.searchBar::placeholder {
+	height: 14px;
+	width: 333px;
+	color: #A0A1B9;
+	font-family: Raleway;
+	font-size: 12px;
+	letter-spacing: 0.3px;
+    line-height: 14px;
+}
+
+.modeAndProfileDiv {
+	height: 34px;
+    width: 336px;
+    float: left;
+}
+
+.testModeDiv, .notificationDiv, .documentationDiv, .profileIconDiv {
+    float: left;
+}
+
+.verticalLine {
+	box-sizing: border-box;
+	height: 33px;
+	width: 1px;
+	border: 1px solid #979797;
+	opacity: 0.12;
+}
+
+.testModeDiv {
+    height: 27px;
+    width: 96px;
+    margin-right: 26px;
+}
+
+.modeButton {
+	height: 27px;
+	width: 96px;
+	border-radius: 13.5px;
+	background-color: #B9510A;
+    box-shadow: 0 7px 13px -9px #F57F18;
+    border: none;
+    outline: none;
+    color: #FFFFFF;
+    font-size: 10px;
+    font-family: Raleway;
+}
+
+.notificationDiv {
+    width: 53px;
+    height: 34px;
+}
+
+.documentationDiv {
+    width: 103px;
+}
+
+.documentationText {
+	height: 11px;
+	width: 72px;
+	color: #000000;
+	font-family: Raleway;
+	font-size: 10px;
+	line-height: 11px;
+    text-align: center;
+    margin-top: 12px;
+    border: none;
+    outline: none;
+    background-color: inherit;
+}
+
+.profileIconDiv {
+	height: 34px;
+	width: 47px;
+}
+
+.dropdownCaret {
+    margin-left: 5px;
+}

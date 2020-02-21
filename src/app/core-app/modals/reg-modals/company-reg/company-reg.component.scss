@@ -1,0 +1,223 @@
+.container {
+	height: 739px;
+	width: 437px;
+	border-radius: 13px;
+	background-color: #FFFFFF;
+}
+
+.companyRegistrationTxt {
+	height: 19px;
+	// width: 169px;
+	color: #000000;
+	font-family: Raleway;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 19px;
+	text-align: center;
+	padding-top: 24px;
+    padding-bottom: 26px;
+}
+
+.registrationNumberDiv {
+	height: 82px;
+    width: 358px;
+    margin: auto;
+    margin-bottom: 20px;
+    // padding-top: 26px;
+}
+
+.registrationText {
+	height: 11px;
+	width: 188px;
+	color: #000000;
+	font-family: Raleway;
+	font-size: 10px;
+	font-weight: bold;
+	letter-spacing: 1.1px;
+	line-height: 11px;
+}
+
+.numberText {
+	height: 11px;
+	width: 303px;
+	color: #A0A1B9;
+	font-family: Raleway;
+	font-size: 10px;
+	line-height: 11px;
+}
+
+.registrationNumberInput {
+	height: 48px;
+	width: 358px;
+	border-radius: 6px;
+    background-color: #F3F5FA;
+	border: none;
+	outline: none;
+	padding-left: 20px;
+}
+
+.companyRegistrationDiv {
+	height: 136px;
+	width: 358px;
+	margin: 0 auto;
+}
+
+.companyRegistrationTypeText {
+	height: 11px;
+	width: 235px;
+	color: #000000;
+	font-family: Raleway;
+	font-size: 10px;
+	font-weight: bold;
+	line-height: 11px;
+	margin-top: 19px;
+	margin-bottom: 16px;
+}
+
+input[type="radio"] {
+	padding: unset;
+}
+
+label {
+	margin-bottom: 0px;
+}
+
+.registrationOptionDiv {
+	height: 79px;
+	width: 97px;
+	// margin-bottom: 20px;
+}
+
+.registrationType {
+	height: 11px;
+	width: 77px;
+	color: #000000;
+	font-family: Raleway;
+	font-size: 10px;
+	line-height: 11px;
+	// margin-bottom: 12px;
+}
+
+[type="file"] {
+	height: 0;
+	width: 0;
+	overflow: hidden;
+}
+
+[type="file"] + label {
+	font-size: 14px;
+	font-family: Raleway;
+	line-height: 16px;
+	color: #51515A;
+	text-align: center;
+	margin: 0 auto;
+	display: inline-block;
+	vertical-align: middle;
+	box-sizing: border-box;
+	height: 33.2px;
+	width: 96.8px;
+	border: 1px solid #C2C7D2;
+	border-radius: 10px;
+	background: radial-gradient(circle, #FFFFFF 0%, #F1F3F7 100%);
+}
+
+.bvnDiv {
+	height: 95px;
+	width: 358px;
+	margin: auto;
+	margin-top: 19px;
+	margin-bottom: 20px;
+}
+
+.enterYourBvnText {
+	height: 11px;
+	width: 89px;
+	color: #000000;
+	font-family: Raleway;
+	font-size: 10px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	line-height: 11px;
+	margin-bottom: 4px;
+}
+
+.bvnDetailsText {
+	height: 22px;
+	width: 345px;
+	color: #A0A1B9;
+	font-family: Raleway;
+	font-size: 10px;
+	line-height: 11px;
+	margin-bottom: 10px;
+}
+
+.bvnInput {
+	height: 48px;
+	width: 358px;
+	border-radius: 6px;
+	background-color: #F3F5FA;
+	border: none;
+	outline: none;
+	padding-left: 20px;
+}
+
+.memorandumDiv {
+	height: 62px;
+	width: 344px;
+	margin: auto;
+	margin-bottom: 52px;
+}
+
+.uploadMemorandumText {
+	height: 14px;
+	width: 344px;
+	color: #000000;
+	font-family: Raleway;
+	font-size: 12px;
+	font-weight: 600;
+	line-height: 14px;
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+
+.buttonAndIconDiv {
+	height: 82px;
+	width: 252px;
+	margin: auto;
+	text-align: center;
+}
+
+.saveButton {
+	height: 48px;
+	width: 252px;
+	opacity: 0.4;
+	border-radius: 31.5px;
+	background-color: #93CDBD;
+	box-shadow: 0 17px 42px -18px #068167;
+	border: none;
+	outline: none;
+}
+
+.remita-icon {
+	margin: auto;
+	margin-top: 24px;
+}
+
+.straightLine {
+	box-sizing: border-box;
+	height: 2px;
+	width: 437px;
+    border: 1px solid #F1F3F7;
+    margin-top: 20px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance:textfield;
+}

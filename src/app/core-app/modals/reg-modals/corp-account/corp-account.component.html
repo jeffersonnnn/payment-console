@@ -1,0 +1,67 @@
+<!-- Modal -->
+<div class="modal fade" id="corpAccount" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <!-- <div class="modal-header"> -->
+          <!-- <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5> -->
+          <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button> -->
+        <!-- </div> -->
+        <div class="modal-body">
+          <div class="container">
+            <h3 class="corporateBankAccountText">Corporate Bank Account</h3>
+        
+            <h2 class="extraInformation">Remita only accepts Corporate Bank Account for registered account, and the Corporate Bank account information
+                must correspond with the information on the Company registration document.<br>
+                Kindly contact <b>support@remita.net</b> if you have any question
+            </h2>
+        
+            <div class="bankDiv">
+                <label class="selectBankNameText">Select Bank Name</label>
+                <select class="bankDropdown">
+                    <option value="">Select Bank Name</option>
+                    <option>GTB</option>
+                </select>
+            </div>
+        
+            <div class="accountNumberDiv">
+                <label class="corporateBankAccountNumberText">Enter your Corporate Bank Account Number</label>
+                <input type="number" class="corporateBankAccountNumberInput" placeholder="123 456 7890" ng-model="accountNumber" >
+            </div>
+        
+        
+            <div class="corporateAccountDiv" 
+            >
+                <label class="corporateAccountNameText">Corporate Account Name</label>
+                <input type="text" class="corporateAccountName" value={{accountName}}>
+            </div>
+            
+            <div class="errorDiv" 
+            >
+                <div class="alertIcon">
+                    <img src="assets/images/caution.svg" class="alertIcon">
+                </div>
+                <div class="errorMessageDiv">
+                     <label class="errorMessage">The given bank details do not correspond with the Bank details on the BVN<br>
+                        Double check your Bank Details
+                    </label>
+                </div>                    
+            </div>
+        
+            <div class="buttonAndIconDiv">
+                <button class="saveButtonForCorporateBankAccount" data-dismiss="modal">Save</button>
+                <div class="iconDiv">
+                    <img src="assets/images/pages-svg/secured by remita.svg" class="icon">
+                </div>
+            </div>
+            
+        </div>
+                </div>
+        <!-- <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div> -->
+      </div>
+    </div>
+  </div>

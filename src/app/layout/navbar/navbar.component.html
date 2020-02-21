@@ -1,0 +1,27 @@
+<div class="test">
+    <div class="nav-bar-div" *ngIf="currentUser">
+        <div class="searchBarDiv">
+            <input type="search" class="searchBar" placeholder="Search transactions, customers and payment references">
+        </div>
+
+        <div class="modeAndProfileDiv">
+        
+            <div class="testModeDiv">
+                <button class="modeButton" disabled>Test mode</button> 
+            </div>
+                
+            <div class="notificationDiv">
+                <img src="assets/images/pages-svg/bell.svg">
+            </div>
+        
+            <div class="documentationDiv">
+                <button class="documentationText" (click)="logout()">Documentation</button>
+            </div> 
+
+            <div class="profileIconDiv">
+                <img src="assets/images/pages-svg/profile_placeholder_icon.svg" class="profileIcon">
+                <img src="assets/images/pages-svg/dropdown_icon copy 2.svg" class="dropdownCaret">
+            </div>
+        </div>
+    </div>
+</div>

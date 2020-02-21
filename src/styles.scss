@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+@import "~bootstrap/scss/grid";
+@import "~bootstrap/scss/utilities";
+@import "~bootstrap/scss/badge";
+
+// @import url('https://fonts.googleapis.com/css?family=Raleway');
+
+// Global styles from styling folder
+@import "../src/app/shared/styling/position-helpers.scss";
+
+
+/* You can add global styles to this file, and also import other style files */
+a { 
+    cursor: pointer 
+}
+
+.form-control:focus {
+	border: none;
+	box-shadow: none;
+  }
+
+  body {
+    background-color: #F9FAFD;
+  }
+  
+  .form-control:focus {
+    border: none;
+    box-shadow: none;
+  }
+
+  .card {
+    border-radius: 0;
+  }

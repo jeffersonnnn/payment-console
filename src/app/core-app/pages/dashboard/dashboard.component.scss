@@ -1,0 +1,280 @@
+hr {
+    width: 197px;
+    border: 0.5px solid #F1F3F7;
+}
+
+.straightLineForChannel {
+    height: 1px;
+    width: 137px;
+    border: 0.5px solid #F1F3F7;
+}
+
+.headerDiv {
+    height: 34px;
+    width: 1108px;
+    margin-top: 28px;
+    margin-bottom: 31px;
+}
+
+.overviewTextDiv {
+    width: 96px;
+    margin-left: 7px;
+    float: left;
+}
+
+.channelDiv {
+	height: 14px;
+    width: 102px;
+    margin: auto;
+}
+
+.metricsDiv {
+    float: left;
+    height: 34px;
+	width: 210px;
+	border-radius: 4px;
+	background-color: #FFFFFF;
+    box-shadow: 0 9px 18px -8px #D2D7E1;
+    display: grid;
+    font-size: 12px;
+}
+
+#metrics {
+    width: 60px;
+    color: #00A07E;
+	background-color: #FFFFFF;
+    box-shadow: 0 9px 18px -8px #D2D7E1;
+    font-weight: bold;
+    border: none;
+    outline: none;
+}
+
+
+#channel {
+    color: #00A07E;
+    background-color: #FFFFFF;
+    box-shadow: 0 9px 18px -8px #D2D7E1;
+    font-family: Raleway;
+    font-size: 12px;
+}
+
+option {
+    height: 24px;
+    color: #A0A1B9;
+}
+
+select {
+    background-color: transparent !important;
+    width: 50px;
+    border: none;
+    outline: none;
+    background: none;;
+}
+
+option:checked {
+    color: #00A07E;
+    background-color: transparent !important;
+}
+
+
+.overviewText {
+	height: 24px;
+	width: 96px;
+	color: #000000;
+	font-family: Raleway;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 24px;
+}
+
+.channelOption {
+	height: 34px;
+	width: 137px;
+	border-radius: 4px;
+	background-color: #FFFFFF;
+    box-shadow: 0 9px 18px -8px #D2D7E1;
+    border: none;
+    outline: none;
+    font-size: 12px;
+    float: left;
+    text-align: center;
+    display: grid;
+    margin-right: 8px;
+    margin-left: 628px;
+}
+
+.metricsOption {
+    height: 14px;
+    width: 169px;
+    margin: auto;
+}
+
+.paymentActivityDiv {
+	height: 354px;
+	width: 1107.24px;
+	border-radius: 17px;
+	background-color: #FFFFFF;
+	box-shadow: 0 26px 69px -29px #D2D7E1;
+}
+
+.paymentActivityTextDiv {
+    height: 14px;
+    width: 142px;
+    padding-top: 31.5px;
+    margin-left: 32.42px;
+}
+
+.paymentActivityReviewText {
+	height: 14px;
+	width: 141px;
+	color: #000000;
+	font-family: Raleway;
+	font-size: 12px;
+	font-weight: bold;
+    line-height: 14px;
+}
+
+.overviewIcon {
+	height: 78px;
+    width: 78px;
+    margin-bottom: 21px;
+}
+
+.noActivityText {
+	height: 28px;
+	width: 183px;
+	color: #000000;
+	font-family: Raleway;
+	font-size: 12px;
+	line-height: 14px;
+    text-align: center;
+    margin-bottom: 31px;
+}
+
+.getStartedButton {
+	height: 36px;
+	width: 174px;
+	border-radius: 23.63px;
+	background-color: #00A07E;
+    box-shadow: 0 13px 32px -14px #068167;
+    color: #FFFFFF;
+    font-family: Raleway;
+    font-size: 12px;
+    border: none;
+    outline: none;
+}
+
+.revenueDiv {
+	height: 295px;
+	width: 248px;
+	border-radius: 13px;
+    background-color: #F7F9FC;
+    float: left;
+}
+
+.revenue {
+	height: 46px;
+    width: 171px;
+    margin: 0 auto;
+    margin-top: 23px;
+    margin-bottom: 23px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#revenueText {
+	height: 14px;
+	width: 171px;
+	color: #000000;
+	font-family: Raleway;
+	font-size: 12px;
+	line-height: 14px;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.paymentInformationDiv {
+    width: 1108px;
+}
+
+.peakPaymentDiv, .biggestCustomerDiv, .banksDiv {
+	height: 255px;
+	width: 348px;
+	border-radius: 17px;
+	background-color: #FFFFFF;
+    box-shadow: 0 26px 69px -29px #D2D7E1;
+    margin-top: 37px;
+    float: left;
+}
+
+.peakPaymentDiv {
+    margin-right: 33px;
+}
+
+.biggestCustomerDiv {
+    margin-right: 31px;
+}
+
+.peakPaymentText, .biggestCustomerText, .banksText {
+	height: 14px;
+	color: #000000;
+	font-family: Raleway;
+	font-size: 12px;
+	font-weight: bold;
+    line-height: 14px;
+    margin-top: 31px;
+    margin-left: 31px;
+    float: left;
+}
+
+.peakPaymentText {
+    width: 169px;
+    margin-right: 43px;
+}
+
+.biggestCustomerText {
+    width: 187px;
+    margin-right: 25px;
+}
+
+.banksText {
+    width: 193px;
+    margin-right: 19px;
+}
+
+.dropdown {
+	height: 33px;
+	width: 79px;
+	border-radius: 16.5px;
+    background-color: #F7F9FC;
+    outline: none;
+    border: none;
+    float: left;
+    margin-top: 22px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.data {
+    height: 77px;
+    width: 232px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 99px;
+}
+
+.noDataText {
+	height: 28px;
+	width: 232px;
+	color: #7481A9;
+	font-family: Raleway;
+	font-size: 12px;
+	line-height: 14px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+// .test:hover {
+//     color: red;
+// }

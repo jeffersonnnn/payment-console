@@ -1,0 +1,108 @@
+<div class="settingsDiv">
+    <label class="settingsText">Settings</label>
+</div>
+
+<ngb-tabset activeId="tab-1">
+  <ngb-tab id="tab-1" title="General">
+    <ng-template ngbTabContent>
+        <div class="container">
+            <h3 class="profileInformationText">PROFILE INFORMATION</h3>
+        
+            <div class="firstnameAndLastnameDiv">
+                <div class="firstnameDiv">
+                    <label class="firstnameText">First name</label>
+                    <input type="text" class="form-control" placeholder="John">
+                </div>
+                
+                <div class="lastnameDiv">
+                    <label class="lastnameText">Last name</label>
+                    <input type="text" class="form-control" placeholder="Doe">
+                </div>
+            </div>
+        
+            <div class="emailAndPhoneDiv">
+                <div class="emailDiv">
+                    <label class="emailText">Email Address</label>
+                    <input type="email" class="form-control" placeholder="john@email.com">
+                </div>
+                
+                <div class="phoneNumberDiv">
+                    <label class="phoneNumberText">Phone Number</label>
+                    <input type="number" class="form-control" placeholder="+234 123 123 1232">
+                </div>  
+            </div>
+        
+            <div class="addressDiv">
+                <label class="addressText">Physical Business Address</label>
+                <input type="text" class="form-control" id="addressInput" placeholder="12, Street name and address">
+            </div>
+        
+            <div class="URLAndIndustryDiv">
+                <div class="URLDiv">
+                    <label class="URLText">Enter your website URL</label>
+                    <input type="text" class="form-control" placeholder="www.abccompany.com">
+                </div>
+                
+                <div class="industryDiv">
+                    <label class="industryText">What industry does your business operate in?</label>
+                    <select class="form-control">
+                        <option>Retail</option>
+                    </select>
+                </div>
+            </div>
+        
+            <div class="roleDiv">
+                <label class="roleText">What's your role at company</label>
+                <input type="text" class="form-control" id="roleInput" placeholder="CFO">
+            </div>
+        
+            <div class="statusDiv">
+                <label class="statusText">What's the registration status of your business?</label>
+                <select class="form-control" id="statusOption">
+                    <option>Starter</option>
+                    <option>Registered</option>
+                </select>
+            </div>
+        
+            <div class="developerDiv">
+                <label class="developerText" id="developerText">Are you a software developer?</label>
+                <div class="yesDiv">
+                    <input type="radio" name="developer" value="yes" class="developer"><label for="radioButton" id="labelForYes">YES</label>
+                </div>
+                <div class="noDiv">
+                    <input type="radio" name="developer" value="no" class="developer"><label for="radioButton">NO</label>
+                </div>
+            </div>
+        
+            <div>
+                <button class="saveButton">Save</button>
+            </div>
+        </div>
+    </ng-template>
+  </ngb-tab>
+  <ngb-tab id="tab-2" title="Business">
+    <ng-template ngbTabContent>
+      <p>Tab two content here</p>
+    </ng-template>
+  </ngb-tab>
+  <ngb-tab id="tab-3" title="Bank Account">
+    <ng-template ngbTabContent>
+      <p>Tab three content here</p>
+    </ng-template>
+  </ngb-tab>
+  <ngb-tab id="tab-4" title="Team">
+    <ng-template ngbTabContent>
+      <p>Tab three content here</p>
+    </ng-template>
+  </ngb-tab>
+  <ngb-tab id="tab-5" title="Preferences">
+    <ng-template ngbTabContent>
+      <p>Tab three content here</p>
+    </ng-template>
+  </ngb-tab>
+  <ngb-tab id="tab-6" title="API Keys">
+    <ng-template ngbTabContent>
+      <p>Tab three content here</p>
+    </ng-template>
+  </ngb-tab>
+</ngb-tabset>

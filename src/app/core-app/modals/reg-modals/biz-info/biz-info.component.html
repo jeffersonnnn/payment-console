@@ -1,0 +1,83 @@
+<div class="modal fade" id="bizInfo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+
+        <div class="modal-body">
+          <div class="container">
+            <h3 class="businessInformationText">Business Information</h3>
+            <div class="companyInformationDiv">
+                <label class="companyInformationText">Tell us about {{ companyName }} <span class="required">*</span></label>
+                <textarea class="companyInformationInput"></textarea>
+            </div>
+        
+            <div class="businessEmailDiv">
+                <label class="businessEmailText">Enter Business Email<span class="required">*</span></label>
+                <input type="mail" class="businessEmailInput" placeholder="email@abc.com">
+            </div>
+        
+            <div class="supportEmailDiv">
+                <label class="supportEmailText">Enter Support Email  <span class="required">*</span></label>
+                <a href="#" class="whatsThisText">What's this?</a>
+                <input type="mail" class="supportEmailInput" placeholder="email@abc.com">
+            </div>
+        
+            <div class="chargebackEmailDiv">
+                <label class="chargebackEmailText">Enter Chargeback Email <span class="required">*</span></label>
+                <a href="#" class="whatsThisText">What's this?</a>
+                <input type="mail" class="chargebackEmailInput" placeholder="email@abc.com">
+            </div>
+        
+            <div class="phoneNumberDiv">
+                <label class="phoneNumberText">Enter Business Phone Number <span class="required">*</span></label>
+                <input type="text" class="phoneNumberEmail" placeholder="+123 234 3453 454">
+            </div>
+            <hr>
+        
+            <div class="businessLogoDiv">
+                <label class="uploadLogoText">Upload a Logo of your business <span class="required">*</span></label>
+                <label class="uploadLogoSubText">Upload a brand logo for your business or your Profile picture.<br> This is to allow customers identify with you when making payment.</label>
+                <input type="file">
+                <label for="file">Upload</label>
+            </div>
+            <div class="logoFormatDiv">
+                <label class="logoFormat">PNG or JPEG format only</label>
+            </div>
+            
+            <hr>
+        
+            <div class="socialMediaDiv">
+                <label class="socialMediaText">Provide your Business' Social Media Links</label>
+                <div class="socialMediaInputLabel">
+                    <label for="socialMediaLink">Facebook</label>
+                </div>
+                <input type="text" class="socialMediaInput">
+                <div class="socialMediaInputLabel">
+                    <label for="socialMediaLink">Twitter</label>
+                </div>
+                <input type="text" class="socialMediaInput">
+                <div class="socialMediaInputLabel">
+                    <label for="socialMediaLink">Instagram</label>
+                </div>
+                <input type="text" class="socialMediaInput">
+                <div class="socialMediaInputLabel">
+                    <label for="socialMediaLink">YouTube</label>
+                </div>
+                <input type="text" class="socialMediaInput">
+                <div class="socialMediaInputLabel">
+                    <label for="socialMediaLink">LinkedIn</label>
+                </div>
+                <input type="text" class="socialMediaInput">
+            </div>
+        
+            <div class="buttonAndIconDiv">
+                <button class="saveButtonForBusinessInformationModal" data-dismiss="modal" [disabled]>Save</button>
+                <div class="iconDiv">
+                    <img src="assets/images/pages-svg/secured by remita.svg" class="icon">
+                </div>
+                
+            </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>

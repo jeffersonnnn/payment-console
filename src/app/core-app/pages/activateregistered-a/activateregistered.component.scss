@@ -1,0 +1,153 @@
+.container {
+	height: 678px;
+	width: 1132px;
+	border-radius: 17px;
+	background-color: #FFFFFF;
+	margin-top: 34px;
+	box-shadow: 0 26px 69px -29px #D2D7E1;
+}
+
+.textDiv {
+	padding-top: 62px;
+}
+
+.companyNameText {
+	height: 21px;
+	width: 185px;
+	color: #51515A;
+	font-family: Raleway;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 21px;
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 8px;
+}
+
+.welcomeText {
+	height: 44px;
+	width: 534px;
+	color: #A0A1B9;
+	font-family: Raleway;
+	font-size: 16px;
+	line-height: 22px;
+	text-align: center;
+	margin: 0 auto;
+	// margin-top: 91px;
+	// padding-top: 8px;
+	margin-bottom: 70px;
+}
+
+.businessAndDashboardDiv {
+	height: 325px;
+	display: block;
+	margin: auto;
+	margin-bottom: 148px;
+}
+
+.activateYourBusinessDiv {
+	box-sizing: border-box;
+	height: 325px;
+	width: 252px;
+	border: 1px solid #E5E8F0;
+	border-radius: 13px;
+	background-color: #F7F9FC;
+	float: left;
+	margin-left: 270px;
+}
+
+.icon {
+	height: 48px;
+	width: 48px;
+	margin: 0 auto;
+	margin-top: 85px;
+	margin-bottom: 17px;
+	display: block;
+}
+
+.activateYourBusinessText {
+	height: 19px;
+	width: 172px;
+	color: #51515A;
+	font-family: Raleway;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 19px;
+	margin: auto;
+	margin-bottom: 8px;
+}
+
+.goLiveText {
+	height: 48px;
+	width: 144px;
+	color: #A0A1B9;
+	font-family: Raleway;
+	font-size: 14px;
+	line-height: 16px;
+	text-align: center;
+	margin: auto;
+	margin-bottom: 40px;
+}
+
+.startButton {
+	height: 32px;
+	width: 100px;
+	border-radius: 31.5px;
+	background-color: #51515A;
+	box-shadow: 0 17px 42px -18px #C2C7D2;
+	color: white;
+	border: none;
+	margin: 0 auto;
+	display: block;
+	// outline: none;
+}
+
+.dashboardTourDiv {
+	box-sizing: border-box;
+	height: 325px;
+	width: 252px;
+	border: 1px solid #F1F3F7;
+	border-radius: 13px;
+	background-color: #F7F9FC;
+	float: left;
+	margin-left: 48px;
+}
+
+.dashboardTourText {
+	height: 19px;
+	width: 121px;
+	color: #000000;
+	font-family: Raleway;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 19px;
+	margin: 0 auto;
+	margin-bottom: 8px;
+}
+
+.knowYourWayText {
+	height: 48px;
+	width: 137px;
+	color: #A0A1B9;
+	font-family: Raleway;
+	font-size: 14px;
+	line-height: 16px;
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.takeTourButton {
+	box-sizing: border-box;
+	height: 33.2px;
+	width: 108.8px;
+	border: 1px solid #C2C7D2;
+	border-radius: 16.1px;
+	background: radial-gradient(circle, #FFFFFF 0%, #F1F3F7 100%);
+	margin: 0 auto;
+	display: block;
+}
+
+button {
+	outline: none;
+}

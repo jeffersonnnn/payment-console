@@ -1,0 +1,265 @@
+.container {
+	height: 1273px;
+	width: 437px;
+	border-radius: 13px;
+	background-color: #FFFFFF;
+}
+
+::placeholder {
+	height: 16px;
+	width: 103px;
+	opacity: 0.9;
+	color: #C9CACB;
+	font-family: Raleway;
+	font-size: 14px;
+	line-height: 16px;
+}
+
+.businessInformationText {
+	height: 19px;
+	width: 159px;
+	color: #000000;
+	font-family: Raleway;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 19px;
+	margin: 0 auto;
+	padding-top: 12px;
+	padding-bottom: 13px;
+}
+
+.companyInformationDiv {
+    height: 136px;
+    width: 358px;
+	margin: 0 auto;
+	margin-top: 20px;
+    margin-bottom: 14px;
+}
+
+.companyInformationText {
+	// height: 19px;
+	// width: 251px;
+	color: #000000;
+	font-family: Raleway;
+	font-size: 10px;
+	font-weight: bold;
+	letter-spacing: 1.1px;
+	line-height: 11px;
+}
+
+.companyInformationInput {
+	height: 111px;
+	width: 358px;
+	border-radius: 6px;
+    background-color: #F3F5FA;
+    padding-top: 0;
+    padding-left: 0;
+    border: none;
+    outline: none;
+    padding-left: 27px;
+}
+
+.businessEmailDiv, .supportEmailDiv, .chargebackEmailDiv, .phoneNumberDiv {
+    width: 358px;
+    margin: 0 auto;
+    margin-bottom: 14px;
+}
+
+.phoneNumberDiv {
+	margin-bottom: 20px;
+}
+
+.businessEmailText, .supportEmailText, .chargebackEmailText, .phoneNumberText {
+	// height: 19px;
+	width: 251px;
+	color: #000000;
+	font-family: Raleway;
+	font-size: 10px;
+	font-weight: bold;
+	letter-spacing: 1.1px;
+    line-height: 11px;
+    margin-bottom: 6px;
+}
+
+.supportEmailText {
+	width: 127px;
+	margin-right: 171px;
+}
+
+.chargebackEmailText {
+	width: 149px;
+	margin-right: 149px;
+}
+
+.whatsThisText {
+	height: 11px;
+	width: 60px;
+	color: #C2C7D2;
+	font-family: Raleway;
+	font-size: 10px;
+	font-weight: 600;
+	line-height: 11px;
+	text-decoration: none;
+}
+
+.businessEmailInput, .supportEmailInput, .chargebackEmailInput, .phoneNumberEmail {
+	height: 48px;
+	width: 358px;
+	border-radius: 6px;
+    background-color: #F3F5FA;
+    border: none;
+    outline: none;
+    padding-left: 27px;
+}
+
+.businessLogoDiv {
+	height: 96px;
+    width: 358px;
+	margin: 0 auto;
+	margin-top: 25px;
+	margin-bottom: 11px;
+}
+
+.uploadLogoText {
+	height: 19px;
+	width: 251px;
+	color: #000000;
+	font-family: Raleway;
+	font-size: 10px;
+	font-weight: bold;
+	letter-spacing: 1.1px;
+	line-height: 11px;
+}
+
+.uploadLogoSubText {
+	height: 22px;
+	width: 313px;
+	color: #A0A1B9;
+	font-family: Raleway;
+	font-size: 10px;
+	line-height: 11px;
+	margin-bottom: 16px;
+}
+
+[type="file"] {
+	height: 0;
+	width: 0;
+	overflow: hidden;
+}
+
+[type="file"] + label {
+	font-size: 14px;
+	font-family: Raleway;
+	line-height: 16px;
+	color: #51515A;
+	text-align: center;
+	margin: 0 auto;
+	display: table-cell;
+	vertical-align: middle;
+	box-sizing: border-box;
+	height: 33.2px;
+	width: 96.8px;
+	border: 1px solid #C2C7D2;
+	border-radius: 10px;
+	background: radial-gradient(circle, #FFFFFF 0%, #F1F3F7 100%);
+}
+
+.logoFormatDiv {
+	height: 10px;
+	width: 96px;
+	margin: 0 auto;
+}
+
+
+.logoFormat {
+	height: 10px;
+	width: 96px;
+	color: #A0A1B9;
+	font-family: Raleway;
+	font-size: 8px;
+	font-weight: 600;
+	line-height: 10px;
+}
+
+.socialMediaDiv {
+	height: 334px;
+    width: 358px;
+    margin: 0 auto;
+}
+
+.socialMediaText {
+	height: 14px;
+	width: 245px;
+	color: #000000;
+	font-family: Raleway;
+	font-size: 12px;
+	font-weight: 600;
+    line-height: 14px;
+    margin-bottom: 24px;
+}
+
+.socialMediaInputLabel {
+	height: 48px;
+	width: 117px;
+	opacity: 0.6;
+	border-radius: 6px 0 0 6px;
+    background-color: #A0A1B9;
+    float: left;
+    font-size: 10px;
+    color: #FFFFFF;
+    font-family: Raleway;
+}
+
+label[for="socialMediaLink"] {
+	padding-left: 28px;
+	margin-top: 18px;
+}
+
+.socialMediaInput {
+	height: 48px;
+	width: 241px;
+    background-color: #F3F5FA;
+    border: none;
+    margin-bottom: 14px;
+    outline: none;
+    float: left;
+    border-top-right-radius: 6px;
+	border-bottom-right-radius: 6px;
+	display: inline-block;
+	padding-left: 20px
+}
+
+.buttonAndIconDiv {
+	height: 90px;
+    width: 252px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.saveButtonForBusinessInformationModal {
+	height: 48px;
+	width: 252px;
+	border-radius: 31.5px;
+	background-color: #00A07E;
+    box-shadow: 0 17px 42px -18px #068167;
+    color: white;
+    font-size: 16px;
+    border: none;
+    outline: none;
+}
+
+.iconDiv {
+	height: 18px;
+	width: 156px;
+	margin: 0 auto;
+}
+
+.icon {
+	height: 18px;
+    width: 156px;
+    margin-top: 24px;
+}
+
+.required {
+	color: red;
+}

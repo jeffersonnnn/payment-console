@@ -1,0 +1,138 @@
+
+<!-- <button routerLink="/activatestarter">Activate Starter</button>
+<button routerLink="/activatereg">Activate Business</button> -->
+
+
+<div class="justify-content-center col-6">
+    <form [formGroup]="setupForm" (ngSubmit)="onSubmit()">
+        <div class="personalInformationDiv">
+            <div class="personalInformationTextAndIconDiv">
+                <h3 class="personalInformationText">PERSONAL INFORMATION</h3>
+                <span class="personIcon"><img src="assets/images/pages-svg/Group.svg"></span>
+            </div>
+            
+            <div class="firstNameAndLastNameDiv">
+                <div class="firstNameDiv">
+                    <label for="firstName">First Name</label>
+                    <input type="text" formControlName="firstName" class="form-control" 
+                    placeholder="John"
+                    />
+                    <!-- <div *ngIf="submitted && f.password.errors" class="invalid-feedback">
+                        <div *ngIf="f.email.errors.required">First name is required</div>
+                    </div> -->
+                </div>
+        
+                <div class="lastNameDiv">
+                    <label for="lastName">Last Name</label>
+                    <input type="text" formControlName="lastName" class="form-control" 
+                    placeholder="Doe"
+                    />
+                    <!-- <div *ngIf="submitted && f.password.errors" class="invalid-feedback">
+                        <div *ngIf="f.email.errors.required">Last name is required</div>
+                    </div> -->
+                </div>
+        
+            </div>
+            
+            <div class="emailAndNumberDiv">
+                <div class="emailAddressDiv">
+                    <label for="email">Email Address</label>
+                    <input type="email" formControlName="email" class="form-control" 
+                    placeholder="John@email.com"
+                    />
+                    <!-- <div *ngIf="submitted && f.password.errors" class="invalid-feedback">
+                        <div *ngIf="f.email.errors.required">Email is required</div>
+                    </div> -->
+                </div>
+        
+                <div class="phoneNumberDiv">
+                    <label for="phoneNumber">Phone Number</label>
+                    <input type="text" formControlName="phoneNumber" class="form-control" 
+                    />
+                    <!-- <div *ngIf="submitted && f.password.errors" class="invalid-feedback">
+                        <div *ngIf="f.email.errors.required">Phone number is required</div>
+                    </div> -->
+                </div>
+            </div>
+            
+
+            <div class="roleAtTheCompanyDiv">
+                <label for="roleAtTheCompanyText">What's your role at this company?</label>
+                    
+                <div class="companyAdministratorButtonDiv">
+                    <input type="radio" formControlName="roleInput" name="roleInput" value="company administrator" id="companyAdministratorButton" class="role"><label for="radioButton">Company administrator / Senior manager</label>
+                </div>
+
+                <div class="directorButtonDiv">
+                    <input type="radio" formControlName="roleInput" name="roleInput" value="director" id="directorButton" class="role"><label for="radioButton">Director / Owner</label>
+                </div>
+
+                <div class="employeeButtonDiv">
+                    <input type="radio" formControlName="roleInput" name="roleInput" value="employee" id="employeeButton" class="role"><label for="radioButton">Employee / Contractor</label>
+                </div>
+                
+                <div class="otherButtonDiv">
+                    <input type="radio" formControlName="roleInput" name="roleInput" value="other"id="otherButton" class="role"><label for="radioButton">Other</label>
+                </div>
+            </div>
+
+            <div class="areYouASoftwareDeveloperDiv">
+                <label for="areYouASoftwareDeveloperText">Are you a software developer?</label>
+                <div class="yesDiv">
+                    <input type="radio" formControlName="software" name="software" value="yes" class="developer"><label for="radioButton">YES</label>
+                </div>
+                <div class="noDiv">
+                    
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="businessInformationDiv">
+            
+            <div class="businessInformationTextAndIconDiv">
+                <h3 class="businessInformationText">BUSINESS INFORMATION</h3>
+                <span class="shopIcon"><img src="assets/images/pages-svg/shop.svg"></span>
+            </div>
+            
+            <div class="industryDiv">
+                <label for="industryTypeText">What industry does your business operate in?</label>
+                <input type="text" formControlName="industryTypeInput" id="industryTypeInput" class="form-control" placeholder="Please Select">
+            </div>
+
+            <div class="addressAndURLDiv">
+            <div class="physicalBusinessAddressDiv">
+                <label for="physicalBusinessAddressText">Physical Business Address</label>
+                <input type="text" formControlName="physicalBusinessAddressInput" class="physicalBusinessAddressInput" class="form-control" placeholder="12, Street name and address">
+            </div>
+
+            <div class="websiteURLDiv">
+                <label for="websiteURLText">Enter your Website URL</label>
+                <input type="text" formControlName="websiteURLText" class="form-control" placeholder="www.abclimited.com">
+            </div>
+        </div>
+
+            <div class="registrationStatusDiv">
+                <label for="registrationStatusText">What's the registration status of your business?</label>
+                <!-- <input type="text" id="registrationStatusInput" class="form-control" placeholder="Starter or Registered Business"> -->
+
+                <select formControlName="registrationStatusInput" id="registrationStatusInput">
+                    <option value="" disabled>Starter or Registered Business</option>
+                    <option value="starter">Starter Business</option>
+                    <option value="registered">Registered Business</option>
+                </select>            
+            </div>
+
+            <div class="buttonsDiv">
+                
+                    <button class="goBackButton"> Go Back</button>
+
+                    <!-- <button routerLink="/activatestarterb">test</button> -->
+            
+                    <button class="completeSetup">Complete Setup</button>
+
+            </div>
+
+        </div>
+    </form>
+</div>

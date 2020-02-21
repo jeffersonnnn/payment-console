@@ -1,0 +1,114 @@
+<div class="container">
+    <div class="headerDiv">
+        <div class="overviewTextDiv">
+             <h3 class="overviewText">Overview</h3>
+        </div>
+
+        <div class="channelOption">
+            <div class="channelDiv">
+                <label for="channel">Channel: </label>
+                <select id="channel" >
+                    <option value="Bank Branch">Bank Branch</option><hr class="straightLineForChannel">
+                    <option value="Internet Banking">Internet Banking</option><hr class="straightLineForChannel">
+                    <option value="USSD">USSD</option><hr class="straightLineForChannel">
+                    <option value="Direct Debit">Direct Debit</option><hr class="straightLineForChannel">
+                    <option value="RPG">RPG</option><hr class="straightLineForChannel">
+                    <option value="Card">Card</option><hr class="straightLineForChannel">
+                    <option value="Auto-Sweep">Auto-Sweep</option>
+                </select> 
+            </div>
+        </div>
+        
+        <div class="metricsDiv">
+            <div class="metricsOption">
+                <label for="channel">Showing metrics for: </label>
+                <select id="metrics">
+                    <option value="1 Year">1 year</option>
+                    <option value="30 days">30 days</option>
+                    <option value="Today">Today</option>
+                    <option value="Last 7 days">Last 7 days</option>
+                    <option value="Custom range">Custom range</option>
+                </select> 
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="paymentActivityDiv">
+        <div class="paymentActivityTextDiv">
+             <h3 class="paymentActivityReviewText">Payment Activity Review</h3>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="getStartedDiv col-md-9">
+                    <canvas 
+                        baseChart height="70" width="200" 
+                        [datasets]="lineChartData" 
+                        [labels]="lineChartLabels" 
+                        [options]="lineChartOptions" 
+                        [colors]="lineChartColors" 
+                        [legend]="lineChartLegend" 
+                        [chartType]="lineChartType" 
+                        (chartHover)="chartHovered($event)" 
+                        (chartClick)="chartClicked($event)">
+                    </canvas>
+                </div>
+                <div class="col-md-3">
+                    <div class="revenueDiv">
+                        <div class="revenue">
+                            {{ volumeOfRevenue }}
+                            <h3 id="revenueText">Volume of Revenue Generated</h3>
+                        </div><hr>
+                        <div class="revenue">
+                            &#8358;{{ totalRevenue }}
+                            <h3 id="revenueText">Total Revenue Generated</h3>
+                        </div><hr>
+                        <div class="revenue">
+                            &#8358;{{ availableBalance }}
+                            <h3 id="revenueText">Available Balance</h3>
+                        </div>
+                    </div>
+               </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="paymentInformationDiv">
+        <div class="peakPaymentDiv">
+            <h4 class="peakPaymentText">When do I get paid the most?</h4>
+            <select class="dropdown">
+                <option>1 year</option>
+            </select>
+    
+            <div class="data">
+                <img src="assets/images/pages-svg/overview empty state.svg" class="noDataIcon">
+                <h3 class="noDataText">Oops, we're sorry, <br> we don't have any data to display here yet</h3>
+            </div>
+        </div>
+    
+        <div class="biggestCustomerDiv">
+            <h4 class="biggestCustomerText">Who are my biggest customers?</h4>
+            <select class="dropdown">
+                <option>1 year</option>
+            </select>
+    
+            <div class="data">
+                <img src="assets/images/pages-svg/overview empty state.svg" class="noDataIcon">
+                <h3 class="noDataText">Oops, we're sorry, <br> we don't have any data to display here yet</h3>
+            </div>
+        </div>
+    
+        <div class="banksDiv">
+            <h4 class="banksText">What banks am I being paid with?</h4>
+            <select class="dropdown">
+                <option>1 year</option>
+            </select>
+    
+            <div class="data">
+                <img src="assets/images/pages-svg/overview empty state.svg" class="noDataIcon">
+                <h3 class="noDataText">Oops, we're sorry, <br> we don't have any data to display here yet</h3>
+            </div>
+        </div>
+    </div>
+    
+</div>

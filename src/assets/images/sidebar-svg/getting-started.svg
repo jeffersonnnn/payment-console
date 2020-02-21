@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="26px" viewBox="0 0 28 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>B454DA21-47E1-494E-9A59-FA81E810D0A9</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="3---Dashboard-Empty-State" transform="translate(-34.000000, -120.000000)">
+            <g id="Group-29" transform="translate(34.000000, 120.000000)">
+                <g id="active_card_icon">
+                    <rect id="Rectangle" fill="#EDEFF1" x="0" y="0" width="28" height="26"></rect>
+                    <path d="M16.1572849,12.4468676 C14.977472,13.3304576 13.3901835,13.4460067 12.0945024,12.7425115 L10.7132409,11.9866058 L10.7132409,5.19471082 L11.7930338,5.7867021 C13.3072444,6.60768107 15.1613115,6.4729617 16.540636,5.44181356 C17.7230903,4.55822351 19.3123158,4.44285029 20.6104622,5.14616964 L22,5.90225118 L21.9987673,12.6941462 L20.9098177,12.1019791 C19.3938462,11.2810001 17.5383703,11.4157194 16.1572849,12.4468676 Z M8.63958772,4 L10.0821291,4 L10.0821291,22.3696682 L11.3998215,22.3696682 C11.573976,22.3696682 11.7153775,22.510719 11.7153775,22.6848341 C11.7153775,22.8589492 11.573976,23 11.3998215,23 L7.31555592,23 C7.14122534,23 7,22.8589492 7,22.6848341 C7,22.510719 7.14122534,22.3696682 7.31555592,22.3696682 L8.63958772,22.3696682 L8.63958772,4 Z" id="getting_started_icon" fill="#D1D4DB"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

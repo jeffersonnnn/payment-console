@@ -1,0 +1,53 @@
+<div class="container">
+
+    <div class="activateDiv">
+        <h3 class="activateYourRegisteredBusinessText">Activate your Registered Account</h3>
+        <h3 class="paperWorkText">Please complete the paperwork below to go live and start receiving payments</h3>
+    </div>
+
+    <div class="companyInformationDiv">
+
+        <div class="companyRegistrationDiv">
+            <img src="assets/images/pages-svg/name1.svg" class="icon">
+            <div class="companyRegistrationTextDiv">
+                <h3 class="companyRegistrationText">Company Registration</h3>
+                <h3 class="companyRegistrationDetails">Please enter your company registration details</h3>              
+            </div>
+            <button class="continueButton" (click)="openCompanyModal()">Continue</button>
+
+        </div>
+        <hr class="straightLine">
+        
+        <div class="businessInformationDiv">
+            <img src="assets/images/pages-svg/briefcase1.svg" class="icon">
+            <div class="businessInformationTextDiv">
+                    <h3 class="businessInformationText">Business Information</h3>
+                    <h2 class="businessInformationDetails">Please tell us more about your business</h2>  
+            </div>
+            <button class="continueButton" (click)="openBizModal()">Continue</button>
+        </div>
+        <hr class="straightLine">
+        
+        <div class="bankAccountDiv">
+            <img src="assets/images/pages-svg/architecture-and-city.svg" class="icon">
+            <div class="corporateBankAccountTextDiv">
+                <h3 class="corporateBankAccountText">Corporate Bank Accounts</h3>
+                <h2 class="corporateBankAccountDetails">Tell us where to settle your payments</h2>
+            </div>
+            <button class="continueButton" (click)="openCorporateModal()">Continue</button>
+        </div>
+        <hr class="straightLine">
+        
+    </div>
+
+    <div class="activationButtonDiv">
+        <button class="sendActivationRequestButton" (click)="sendActivationReq()">Send Activation Request</button>
+    </div>
+
+
+</div>
+
+<app-company-reg></app-company-reg>
+<app-biz-info></app-biz-info>
+<app-corp-account></app-corp-account>
+<app-thank-you></app-thank-you>
